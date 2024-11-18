@@ -37,6 +37,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-spring": "^9.7.3",
+        "simplephasergamenode": "file:",
         "stats.js": "^0.17.0",
         "tss-react": "^4.9.6",
         "yuka": "^0.7.8"
