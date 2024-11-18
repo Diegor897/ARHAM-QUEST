@@ -1,0 +1,44 @@
+{
+    "name": "simplephasergamenode",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "npx parcel index.html --no-cache",
+        "build": "npx parcel build index.html --public-url ./ --dist-dir docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cleongh/plantillaphaser.git"
+    },
+    "keywords": [],
+    "author": "Carlos León <cleon@ucm.es>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cleongh/plantillaphaser/issues"
+    },
+    "homepage": "https://github.com/cleongh/plantillaphaser#readme",
+    "devDependencies": {
+        "@parcel/transformer-glsl": "^2.11.0",
+        "parcel": "^2.11.0",
+        "parcel-reporter-static-files-copy": "^1.5.3",
+        "process": "^0.11.10"
+    },
+    "alias": {
+        "process": false
+    },
+    "dependencies": {
+        "@enable3d/phaser-extension": "^0.25.4",
+        "@react-spring/web": "^9.7.3",
+        "install": "^0.13.0",
+        "mersenne-twister": "^1.1.0",
+        "n8ao": "^1.8.1",
+        "npm": "^10.5.0",
+        "phaser": "^3.80.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-spring": "^9.7.3",
+        "stats.js": "^0.17.0",
+        "tss-react": "^4.9.6",
+        "yuka": "^0.7.8"
+    }
+}
